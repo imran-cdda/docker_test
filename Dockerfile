@@ -7,4 +7,5 @@ COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
+CMD echo "Hello...!"
 CMD [ "python", "main.py" ]
