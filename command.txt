@@ -1,0 +1,4 @@
+-> docker-compose down
+-> docker-compose up -d --build --scale flask=5
+
+force to update --> docker-compose up --build --remove-orphans --force-recreate
